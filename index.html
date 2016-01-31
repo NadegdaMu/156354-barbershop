@@ -3,10 +3,139 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
+    <link href="style.css" rel="stylesheet">
   </head>
   <body>
+  <header class="main-header">
+  	<div class="container">
+  		<div class="logo"><i>Barbershop</i></div>
+  		<nav class="main-navigation">
+  			<ul class="list">
+  				<li>
+  					<a href="#">НФОРМАЦИЯ</a>
+  				</li>
+  				<li>
+  					<a href="#">НОВОСТИ</a>
+  				</li>
+  				<li>
+  					<a href="#">ПРАЙС-ЛИСТ</a>
+  				</li>
+  				<li>
+  					<a href="#">МАГАЗИН</a>
+  				</li>
+  				<li>
+  					<a href="#">КОНТАКТЫ</a>
+  				</li>
+  			</ul>
+        </nav>
+        <div>
+          <img src="img/icon-login.gif" width="17" height="14">
+        	<input type="submit" value="ВХОД">
+        </div>
+  	</div>
+  </header>
+  <caption>
+    <div class="container">
+    	<h1>СРЕДСТВА ДЛЯ УХОДА</h1>
+    	<div class="breadcrumbs">
+          <ul>
+          	<li>
+              <a href="#">ГЛАВНАЯ</a>
+          	</li>
+          	<li>
+              <a href="#">МАГАЗИН</a>
+          	</li>
+          	<li>
+              <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
+          	</li>
+          </ul>
+    	</div>
+   
+        <h2>ПРОИЗВОДИЕТЛИ</h2>
+        <div class="maker-list">
+          
+          	<input type="checkbox" id="chx1" checked><label id="chx1"1BAXTER OF CALIFORNIA</label>
+          	<input type="checkbox" id="chx2"><label id="chx2">MR NATTY</label>
+          	<input type="checkbox" id="chx3" checked><label id="chx3">SUAVECITO</label>
+          	<input type="checkbox" id="chx4"><label id="chx4">MALIN+GOETS</label>
+          	<input type="checkbox" id="chx5"><label id="chx5">MURRAY'S</label>
+          	<input type="checkbox" id="chx6"><label id="chx6">AMERICAN CREW</label>
+          </form>
+        </div>
+        <h2>ГРУППЫ ТОВАРОВ:</h2>
+        <input type="radio" name="supplies" value="Бритвенные принадлежности">
+        <input type="radio" name="supplies" value="Средства для ухода" checked="">
+        <input type="radio" name="supplies" value="Аксессуары">
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive">Базовый HTML и CSS</a>».</p>
+        <div class="maker-list__button">
+           <button class="btn" type="submit">ПОКАЗАТЬ</button>
+        </div>
+    </div>
+    <div class="list">
+      <article class="list-prodact">
+       <img src="img/Layer 38.jpg"  width="220" height="165" alt="Набор для путешествий">
+       <p>Набор для путушествий<br>&quot;BAXTER OF CALIFORNIA&quot;</p>
+       <div class="list__price">2 900 руб.</div>
+       <button class="list__buy">КУПИТЬ</button> 
+      </article>
+      <article class="list-prodact">
+       <img src="img/Layer 30.jpg"  width="220" height="165" alt="Увлажняющий кондиционер">
+       <p>Увлажняющий кондиционер<br>&quot;BAXTER OF CALIFORNIA&quot;</p>
+       <div class="list__price">750 руб.</div>
+       <button class="list__buy">КУПИТЬ</button> 
+      </article>
+      <article class="list-prodact">
+       <img src="img/Layer 39.jpg"  width="220" height="165" alt="Гель для волос">
+       <p>Гель для волос<br>&quot;SUAVECITO&quot;</p>
+       <div class="list__price">290 руб.</div>
+       <button class="list__buy">КУПИТЬ</button> 
+      </article>
+      <article class="list-prodact">
+       <img src="img/Layer 39.jpg"  width="220" height="165" alt="Глина для укладки волос">
+       <p>Глина для укладки волос<br>&quot;American crew&quot;</p>
+       <div class="list__price">500 руб.</div>
+       <buttTTon class="list__buy">КУПИТЬ</button> 
+      </article>
+      <article class="list-prodact">
+       <img src="img/Layer 33.jpg"  width="220" height="165" alt="Гель для волос">
+       <p>Гель для волос<br>&quot;American crew&quot;</p>
+       <div class="list__price">300 руб.</div>
+       <button class="list__buy">КУПИТЬ</button> 
+      </article>
+      <article class="list-prodact">
+       <img src="img/Layer 42.jpg"  width="220" height="165" alt="Набор для бритья">
+       <p>Набор для бритья<br>&quot;BAXTER OF CALIFORNIA&quot;</p>
+       <div class="list__price">3 900 руб.</div>
+       <button class="list__buy">КУПИТЬ</button> 
+      </article>
+    </div>
+    <div class="paginator">
+            <a href="#1">1</a>
+            <a class="current" href="#2">2</a>
+            <a href="#3">3</a>
+            <a href="#4">4</a>
+    </div>
+  </caption>
+  <footer>
+  	<div class="container">
+  	  <section class="footer-contacts">
+  	    <p>БАРЬЕРШОП "БОРОДИНСКИЙ"<br>АДРЕС: Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д.19/8</p>
+  	    <a href="#">КАК НАС НАЙТИ?</a>
+  	    <p>ТЕЛЕФОН:+7 (495) 666-02-66</P>
+  	  </section>
+  	  <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a href="https://htmlacademy.ru">HTMLACADEMY.RU</a>
+        </section>
+  	</div>
+  </footer>
+   
 
   </body>
 </html>

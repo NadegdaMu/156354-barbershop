@@ -3,11 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Барбершоп</title>
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
   <header class="main-header">
-  	<div class="container">
+  	<div class="container clearfix">
   		<div class="logo"><img src="img/Logo.png" height="24" width="111"></div>
   		<nav class="main-navigation">
   			<ul class="list">
@@ -27,7 +27,7 @@
   					<a href="#">КОНТАКТЫ</a>
   				</li>
   			</ul>
-        </nav>
+      </nav>
         <div class="private">
           <img src="img/icon-login.gif" width="17" height="14">
         	<input type="submit" value="ВХОД">
@@ -52,85 +52,86 @@
           </ul>
     	  </div>
       </div>
-  <div class="catalog-filter">
-    <form action="#">
-      <div class="catalog-filter__group">
-        <h2>ПРОИЗВОДИЕТЛИ</h2>
-          <input type="checkbox" name="" id="chx1" checked><label id="chx1"1BAXTER OF CALIFORNIA</label>
-          <input type="checkbox" name="" id="chx2"><label id="chx2">MR NATTY</label>
-          <input type="checkbox" name="" id="chx3" checked><label id="chx3">SUAVECITO</label>
-          <input type="checkbox" name="" id="chx4"><label id="chx4">MALIN+GOETS</label>
-          <input type="checkbox" name="" id="chx5"><label id="chx5">MURRAY'S</label>
-          <input type="checkbox" name="" id="chx6"><label id="chx6">AMERICAN CREW</label>
+      <div class="catalog-filter">
+        <form action="#">
+          <div class="catalog-filter__group">
+            <h2>ПРОИЗВОДИЕТЛИ</h2>
+            <input type="checkbox" name="" id="chx1" checked><label id="chx1"1BAXTER OF CALIFORNIA</label>
+            <input type="checkbox" name="" id="chx2"><label id="chx2">MR NATTY</label>
+            <input type="checkbox" name="" id="chx3" checked><label id="chx3">SUAVECITO</label>
+            <input type="checkbox" name="" id="chx4"><label id="chx4">MALIN+GOETS</label>
+            <input type="checkbox" name="" id="chx5"><label id="chx5">MURRAY'S</label>
+            <input type="checkbox" name="" id="chx6"><label id="chx6">AMERICAN CREW</label>
+          </div>
+          <div class="catalog-filter__group">
+            <h2>ГРУППЫ ТОВАРОВ:</h2>
+            <input type="radio" name="supplies" value="Бритвенные принадлежности">
+            <input type="radio" name="supplies" value="Средства для ухода" checked>
+            <input type="radio" name="supplies" value="Аксессуары">
+          </div>
+            <button class="btn" type="submit">ПОКАЗАТЬ</button>
+        </form>
       </div>
-      <div class="catalog-filter__group">
-        <h2>ГРУППЫ ТОВАРОВ:</h2>
-        <input type="radio" name="supplies" value="Бритвенные принадлежности">
-        <input type="radio" name="supplies" value="Средства для ухода" checked>
-        <input type="radio" name="supplies" value="Аксессуары">
-      </div>
-        <button class="btn" type="submit">ПОКАЗАТЬ</button>
-    </form>
-  </div>
-    <div class="catalog-list">
-      <article class="catalog-list__product">
-        <img src="img/Layer 38.jpg"  width="220" height="165" alt="Набор для путешествий">
-        <a href="#" class="product-name">Набор для путушествий<br>&quot;BAXTER OF CALIFORNIA&quot;</a>
+      <div class="catalog-list">
+        <article class="catalog-list__product">
+          <img src="img/Layer 38.jpg"  width="220" height="165" alt="Набор для путешествий">
+          <a href="#" class="product-name">Набор для путушествий<br>&quot;BAXTER OF CALIFORNIA&quot;</a>
           <div class="product-action">
             <div class="product-action__price">2 900 руб.</div>
             <a class="product-action__buy" href="#">КУПИТЬ</a> 
-            </div>
-      </article>
-      <article class="catalog-list__product">
-        <img src="img/Layer 30.jpg"  width="220" height="165" alt="Увлажняющий кондиционер">
-        <a href="#" class="product-name">Увлажняющий кондиционер<br>&quot;BAXTER OF CALIFORNIA&quot;</a>
-         <div class="product-action">
-           <div class="product-action__price">750 руб.</div>
-           <a class="product-action__buy" href="#">КУПИТЬ</a> 
-         </div>
-      </article>
-      <article class="catalog-list__prodact">
-       <img src="img/Layer 39.jpg"  width="220" height="165" alt="Гель для волос">
-       <a href="#" class="product-name">Гель для волос</span><br><span>&quot;SUAVECITO&quot;</a>
-         <div class="list__price">
+          </div>
+        </article>
+        <article class="catalog-list__product">
+          <img src="img/Layer 30.jpg"  width="220" height="165" alt="Увлажняющий кондиционер">
+          <a href="#" class="product-name">Увлажняющий кондиционер<br>&quot;BAXTER OF CALIFORNIA&quot;</a>
+           <div class="product-action">
+             <div class="product-action__price">750 руб.</div>
+             <a class="product-action__buy" href="#">КУПИТЬ</a> 
+           </div>
+        </article>
+        <article class="catalog-list__prodact">
+          <img src="img/Layer 39.jpg"  width="220" height="165" alt="Гель для волос">
+          <a href="#" class="product-name">Гель для волос</span><br><span>&quot;SUAVECITO&quot;</a>
+          <div class="list__price">
            <div class="product-action__price">290 руб.</div>
            <a class="product-action__buy" href="#">КУПИТЬ</a> 
          </div>
-      </article>
-      <article class="catalog-list__product">
-        <img src="img/Layer 38.jpg"  width="220" height="165" alt="Набор для путешествий">
-        <a href="#" class="product-name">Гель для укладки волос<br>&quot;American crew&quot;</a>
+        </article>
+        <article class="catalog-list__product">
+          <img src="img/Layer 38.jpg"  width="220" height="165" alt="Набор для путешествий">
+          <a href="#" class="product-name">Гель для укладки волос<br>&quot;American crew&quot;</a>
           <div class="product-action">
             <div class="product-action__price">500 руб.</div>
             <a class="product-action__buy" href="#">КУПИТЬ</a> 
             </div>
-      </article>
-      <article class="catalog-list__product">
-        <img src="img/Layer 30.jpg"  width="220" height="165" alt="Увлажняющий кондиционер">
-        <a href="#" class="product-name">Гель для волос<br>&quot;American crew&quot;</a>
-         <div class="product-action">
+        </article>
+        <article class="catalog-list__product">
+          <img src="img/Layer 30.jpg"  width="220" height="165" alt="Увлажняющий кондиционер">
+          <a href="#" class="product-name">Гель для волос<br>&quot;American crew&quot;</a>
+          <div class="product-action">
            <div class="product-action__price">300 руб.</div>
            <a class="product-action__buy" href="#">КУПИТЬ</a> 
-         </div>
-      </article>
-      <article class="catalog-list__prodact">
-       <img src="img/Layer 39.jpg"  width="220" height="165" alt="Гель для волос">
-       <a href="#" class="product-name">Набор для бритья<br>&quot;BAXTER OF CALIFORNIA&quot;</a>
-         <div class="list__price">
+          </div>
+        </article>
+        <article class="catalog-list__prodact">
+          <img src="img/Layer 39.jpg"  width="220" height="165" alt="Гель для волос">
+          <a href="#" class="product-name">Набор для бритья<br>&quot;BAXTER OF CALIFORNIA&quot;</a>
+          <div class="list__price">
            <div class="product-action__price">3 900 руб.</div>
            <a class="product-action__buy" href="#">КУПИТЬ</a> 
          </div>
-      </article>
-    <div class="paginator">
-      <a href="#1">1</a>
-      <a class="current" href="#2">2</a>
-      <a href="#3">3</a>
-      <a href="#4">4</a>
-    </div>
-  </div>
-</main>
+        </article>
+        <div class="paginator">
+          <a href="#1">1</a>
+          <a class="current" href="#2">2</a>
+          <a href="#3">3</a>
+          <a href="#4">4</a>
+        </div>
+      </div>
+    </div>  
+  </main>
   <footer class="basement">
-  	<div class="container">
+  	<div class="container clearfix">
   	  <section class="footer-contacts">
   	    <p>БАРЬЕРШОП "БОРОДИНСКИЙ"<br>АДРЕС: Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д.19/8</p>
   	    <a href="#">КАК НАС НАЙТИ?</a>
@@ -148,7 +149,5 @@
         </section>
   	</div>
   </footer>
-   
-
-  </body>
+  S</body>
 </html>
